@@ -1,0 +1,31 @@
+project:
+  title: ""
+  slug: ""
+  topic: ""
+  central_question: ""
+  duration_target: "8-10 minutes"
+  language: "Hindi"
+  script_language_variant: "Devanagari"
+  audience: "General audience"
+  platform: "YouTube"
+  aspect_ratio: "16:9"
+  target_resolution: "1920x1080"
+  frame_rate: "source-consistent"
+  visual_style: "Cinematic documentary; evidence-led"
+  narrator_style: "Natural, neutral Hindi narration"
+  target_output: "08_exports/final.mp4"
+approvals:
+  paid_generation_approved: false
+  approved_provider: ""
+  maximum_spend: "0"
+  public_upload_approved: false
+providers:
+  llm: "not-configured"
+  image: "not-configured"
+  video: "not-configured"
+  tts: "not-configured"
+  stt: "not-configured"
+production:
+  status: "not-started"
+  assumptions: []
+  blockers: []

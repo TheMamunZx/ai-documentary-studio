@@ -1,0 +1,22 @@
+# Local credentials and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local logs and temporary render/cache output
+*.log
+*.tmp
+*.part
+.DS_Store
+Thumbs.db
+
+# Generated production work is normally stored outside the skills repo.
+# Uncomment if you create documentary-projects/ inside this repository:
+# documentary-projects/

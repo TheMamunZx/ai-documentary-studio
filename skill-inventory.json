@@ -1,0 +1,32 @@
+{
+  "library": "ai-video-production-skills",
+  "discoverable_skill_count": 1,
+  "master_skill": "ai-documentary-studio",
+  "internal_specialist_modules": [
+    "00-production-control",
+    "01-research",
+    "02-fact-checking",
+    "03-scriptwriting",
+    "04-storyboard",
+    "05-visual-prompting",
+    "06-continuity",
+    "07-media-generation",
+    "08-voiceover",
+    "09-audio-design",
+    "10-subtitles",
+    "11-editing",
+    "12-rendering",
+    "13-quality-control",
+    "14-rights-audit",
+    "15-youtube-package",
+    "16-provider-routing",
+    "17-voice-generation"
+  ],
+  "runtime_requirements": [
+    "Claude Code or OpenCode with skill discovery",
+    "filesystem and shell access",
+    "configured media providers for actual generation",
+    "FFmpeg or an editor for actual rendering"
+  ],
+  "notes": "Internal modules are references under one Skill, not separate discoverable skills."
+}

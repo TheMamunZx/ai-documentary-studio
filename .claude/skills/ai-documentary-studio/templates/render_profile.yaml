@@ -1,0 +1,19 @@
+output:
+  filename: "final.mp4"
+  container: "mp4"
+  width: 1920
+  height: 1080
+  aspect_ratio: "16:9"
+  frame_rate: "match-approved-project"
+video:
+  codec: "provider-or-editor-supported-h264"
+  quality_mode: "document exact encoder settings used"
+audio:
+  codec: "aac"
+  sample_rate_hz: 48000
+subtitles:
+  language: "Hindi"
+  format: "SRT sidecar; burn-in only when requested"
+verification:
+  require_ffprobe: true
+  require_playback_review: true
